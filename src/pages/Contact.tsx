@@ -76,7 +76,10 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900">Telefoon</h3>
-                  <p className="text-gray-600">+32 (0)495702314</p>
+                  <div className="space-y-1">
+                    <p className="text-gray-600">+32 (0)495 702 314</p>
+                    <p className="text-gray-600">+32 (0)468 029 945</p>
+                  </div>
                 </div>
               </div>
             </div>

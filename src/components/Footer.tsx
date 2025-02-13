@@ -18,9 +18,14 @@ export default function Footer() {
               </div>
               <div className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-blue-400" />
-                <a href="tel:+32495702314" className="hover:text-blue-400 transition-colors">
-                  +32 (0)495 702 314
-                </a>
+                <div className="space-y-1">
+                  <a href="tel:+32495702314" className="hover:text-blue-400 transition-colors block">
+                    +32 (0)495 702 314
+                  </a>
+                  <a href="tel:+32468029945" className="hover:text-blue-400 transition-colors block">
+                    +32 (0)468 029 945
+                  </a>
+                </div>
               </div>
               <div className="flex items-center gap-3">
                 <MapPin className="w-5 h-5 text-blue-400" />
